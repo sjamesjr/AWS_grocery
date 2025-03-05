@@ -75,7 +75,7 @@ This guide provides instructions for deploying your application with Docker Comp
 
      From your local machine, copy the most updated `build` folder to EC2, remember to update the .env files correctly before this step:
      ```bash
-     scp -i /path/to/your-key.pem -r frontend/build ec2-user@your-ec2-public-dns:/home/ec2-user/your-project-path/frontend/
+    ur-ec2-public-dns:/home/ec2-user/your-project-path/frontend/
      ```
 
    - **Set Environment Variables**:
